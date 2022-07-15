@@ -1,4 +1,4 @@
-const getName = () => {
+exports.getName = () => {
   return "MD.Kamrul Hasan";
 };
 
@@ -12,8 +12,8 @@ const cgpa = 3.92;
 // exports.getAge = getAge;
 // exports.result = cgpa;
 
-module.exports = {
-  getName,
-  getAge,
-  cgpa,
-};
+// module.exports = {
+//   getName,
+//   getAge,
+//   cgpa,
+// };
