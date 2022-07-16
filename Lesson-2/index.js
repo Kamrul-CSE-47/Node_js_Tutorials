@@ -7,10 +7,10 @@ const fs = require("fs");
 
 //unlink (delete)
 //exists
-fs.exists("demo2.txt", (result) => {
-  if (result) {
-    console.log("Found");
+fs.rename("demo1.txt", "demo2.txt", (err) => {
+  if (err) {
+    console.log(err);
   } else {
-    console.log("Not Found");
+    console.log("success");
   }
 });

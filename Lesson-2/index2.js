@@ -1,9 +1,9 @@
 const fs = require("fs");
 
-fs.readFile("demo1.txt", "utf-8", (err, data) => {
-  if (err) {
-    console.log(err);
+fs.exists("index.js", (result) => {
+  if (result) {
+    console.log("found");
   } else {
-    console.log(data);
+    console.log("not found");
   }
 });
