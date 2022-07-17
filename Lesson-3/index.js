@@ -1,17 +1,17 @@
-// os, path
-//const os = require("os");
-//const { totalmem, freemem } = require("os");
+// os, path;
+const os = require("os");
+const { totalmem, freemem } = require("os");
 
-//os.....
-//userInfo()
-//homedir()
-//hostname()
-//totalmem()
-//freemem()
-//console.log(freemem());
+// os.....
+userInfo();
+homedir();
+hostname();
+totalmem();
+freemem();
+console.log(os.freemem());
 
-// console.log(__dirname);
-// console.log(__filename);
+console.log(__dirname);
+console.log(__filename);
 
 //path
 const path = require("path");
